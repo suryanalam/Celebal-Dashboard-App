@@ -19,7 +19,7 @@
 }
 
 .companies-div{
-    width: 10vw;
+    min-width: 10vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -29,8 +29,9 @@
 }
 
 .company-sub-div{
-    width: 10vw;
-    height: 80px;
+    padding: 0.5rem 1rem;
+    width: 150px;
+    height: 75px;
     border-radius: 8px;
     background-color:white;
     display: flex;

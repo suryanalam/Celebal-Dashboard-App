@@ -11,7 +11,7 @@ const About = () => {
                     <button className='btn'>Keşfet</button>
                 </div>
                 <div className='about-img-div'>
-                    <img  src={process.env.PUBLIC_URL+'/assets/Illustration1.jpg'} alt=''/>
+                    <img  src={process.env.PUBLIC_URL+'/assets/Illustration1.jpg'} alt='' className='illustration-img'/>
                 </div>
             </div>
 
@@ -22,7 +22,7 @@ const About = () => {
                     <button className='btn'>Keşfet</button>
                 </div>
                 <div className='about-img-div'>
-                    <img  src={process.env.PUBLIC_URL+'/assets/Illustration2.jpg'} alt=''/>
+                    <img  src={process.env.PUBLIC_URL+'/assets/Illustration2.jpg'} alt=''  className='illustration-img'/>
                 </div>
             </div>
         </div>

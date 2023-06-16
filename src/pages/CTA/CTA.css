@@ -25,7 +25,6 @@
     gap:1rem;
 }
 .cta-div1-title{
-    font-weight: 800;
     font-size: clamp(36px,2vw,48px);
 }
 

@@ -8,10 +8,9 @@
 }
 
 .navbar-bg{
-    min-width: 50vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .nav-link{
@@ -26,6 +25,6 @@
     padding: 0.5rem 1rem;
     color: white;
     background-color:#F84646;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }

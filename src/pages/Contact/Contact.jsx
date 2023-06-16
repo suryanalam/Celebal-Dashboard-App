@@ -7,8 +7,8 @@ const Contact = () => {
       <div className='contact-div'>
         <img src={process.env.PUBLIC_URL + '/assets/contact.png'} alt='user-icon' className='user-icon' />
         <div className='contact-data-div'>
-          <h1 className='title'>Bize Ulaşın</h1>
-          <p className='content'>Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi için bizimle irtibata geçin.</p>
+          <h1 className='contact-title'>Bize Ulaşın</h1>
+          <p className='contact-content'>Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi için bizimle irtibata geçin.</p>
         </div>
         <button className='btn'>Bize Ulaşın</button>
       </div>

@@ -1,11 +1,11 @@
 .about-bg{
     margin: 3rem 0;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     min-width:100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:6rem;
+    gap:5rem;
 }
 
 .about-div{
@@ -15,7 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .about-div:nth-child(even){
@@ -23,7 +23,7 @@
 }
 
 .about-details-div{
-    width: 35vw;
+    max-width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -34,13 +34,21 @@
     padding: 0.75rem 3rem;
 }
 
+.about-details-div > .title{
+    max-width: 30vw;
+}
+
 .about-div-content{
     font-size: clamp(12px, 2vw, 16px);
-    font-weight: 400;
-    width: 33vw;
     line-height: 30px;
+    width: 100%;
 }
 
 .about-img-div{
-    width: 30vw;
+    max-width: 30vw;
+}
+
+.illustration-img{
+    width: 100%;
+    height: 100%;
 }

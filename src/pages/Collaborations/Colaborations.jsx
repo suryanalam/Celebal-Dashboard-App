@@ -10,23 +10,23 @@ const Colaborations = () => {
             </div>
             <div className='companies-bg'>
                 <div className='companies-div'>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c1.png'} alt='company-icon'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c1.png'} alt='company-icon' className='company-logo'/></div>
                 </div>
                 <div className='companies-div'>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c2.png'} alt='company-icon'/></div>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c3.png'} alt='company-icon'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c2.png'} alt='company-icon' className='company-logo'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c3.png'} alt='company-icon' className='company-logo'/></div>
                 </div>
                 <div className='companies-div'>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c4.png'} alt='company-icon'/></div>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c5.png'} alt='company-icon'/></div>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c6.png'} alt='company-icon'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c4.png'} alt='company-icon' className='company-logo'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c5.png'} alt='company-icon' className='company-logo'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c6.png'} alt='company-icon' className='company-logo'/></div>
                 </div>
                 <div className='companies-div'>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c7.png'} alt='company-icon'/></div>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c8.png'} alt='company-icon'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c7.png'} alt='company-icon' className='company-logo'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c8.png'} alt='company-icon' className='company-logo'/></div>
                 </div>
                 <div className='companies-div'>
-                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c9.png'} alt='company-icon'/></div>
+                    <div className='company-sub-div'><img src={process.env.PUBLIC_URL+'/assets/companies/c9.png'} alt='company-icon' className='company-logo'/></div>
                 </div>
             </div>
         </div>
